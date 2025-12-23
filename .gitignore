@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+dist/
+
+# .agent directory is tracked (project rules)
+!.agent/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test
+coverage/
+.nyc_output/
+
+# Environment
+.env
+.env.local
